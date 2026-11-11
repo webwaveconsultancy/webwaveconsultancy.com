@@ -1,0 +1,1 @@
+function e(e,t={}){window.dataLayer=window.dataLayer||[],window.dataLayer.push({event:e,...t})}typeof document<`u`&&document.addEventListener(`click`,t=>{let n=(t.target?.closest?.(`[data-event]`))?.getAttribute(`data-event`);n&&e(n)});export{e as t};
